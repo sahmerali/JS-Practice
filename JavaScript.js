@@ -1,3 +1,4 @@
+// ----------------------Chapter 01
 // Q-1 Greeting message
 // alert("Welcome to Our Website");
 
@@ -269,7 +270,7 @@
 // document.write("Amount of Snacks per day: " + perDayRequirement + "<br>");
 // document.write("You will need " + totalRequirement +" " + snack + " to last you until the ripe old age of " + maxAge);
 
-// Chapter 06 to 09
+// ----------------Chapter 06 to 09
 // Q-1
 // var a = 10;
 // document.write("Result:<br>");
@@ -469,7 +470,7 @@
 //     </table>
 // `);
 
-// Chapter 10 & 11
+// ---------------------Chapter 10 & 11
 
 // Q-1
 
@@ -742,7 +743,7 @@
 //     alert("Answer is " + ((num1 / num2)*100) + "%");
 // }
 
-// Chapter # 12 & 13
+// ---------------------Chapter # 12 & 13
 
 // Q-01
 // do {
@@ -875,3 +876,48 @@
 // } else if (time < 0 || time > 2400) {
 //     alert("invalid input");
 // }
+
+//------------ Chapter 15 & 16
+
+// Q-01
+var studentsName = [];
+
+// Q-02
+var studentsName = {};
+
+// Q-03
+var studentsName = ["Syed", "Ahmer", "Ali"];
+
+// Q-04
+var studentsAge = [23, 24, 25];
+
+// Q-05
+var booleanArray = [true, false, false, true];
+
+// Q-06
+var mixedArray = ["Syed", 37, 82.5, true];
+
+// Q-07
+// var qualificationPak = ["SSC", "HCS", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD"];
+// document.write("<h1>Qualifications in Pakistan</h1>");
+
+// for (var i = 0; i < qualificationPak.length; i++) {
+//     document.write((i + 1) + ") " + qualificationPak[i] + "<br>");
+// }
+
+// var myEducation = ["SSC", "HSC", "BBA", "MBA", "Certificate in Digital"];
+// document.write("<h1>My Education</h1>");
+
+// for (var i = 0; i < myEducation.length; i++) {
+//     document.write((i + 1) + ") " + myEducation[i] + "<br>");
+// }
+
+// Q-08
+var studentsName = ["Michael", "John", "Tony"];
+var studentsScore = [320, 230, 480];
+var totalScores = 500;
+
+for (var i = 0; i < studentsName.length; i++) {
+    var percentage = ((studentsScore[i] / totalScores) * 100);
+    document.write("Score of " + studentsName[i] + " is " + studentsScore[i] + "." + "Percentage: " + percentage[i] + "%<br>");
+}
