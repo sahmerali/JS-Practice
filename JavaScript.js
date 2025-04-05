@@ -913,11 +913,18 @@ var mixedArray = ["Syed", 37, 82.5, true];
 // }
 
 // Q-08
-var studentsName = ["Michael", "John", "Tony"];
-var studentsScore = [320, 230, 480];
-var totalScores = 500;
+// var studentsName = ["Michael", "John", "Tony"];
+// var studentsScore = [320, 230, 480];
+// var totalScores = 500;
 
-for (var i = 0; i < studentsName.length; i++) {
-    var percentage = ((studentsScore[i] / totalScores) * 100);
-    document.write("Score of " + studentsName[i] + " is " + studentsScore[i] + "." + "Percentage: " + percentage[i] + "%<br>");
-}
+// for (var i = 0; i < studentsName.length; i++) {
+//     var percentage = (studentsScore[i] / totalScores) * 100;
+//     document.write("Score of " + studentsName[i] + " is " + studentsScore[i] + "." + "Percentage: " + percentage + "%<br>");
+// }
+
+//Q-09
+var colorNames = ["Red", "Green", "Yellow"];
+document.write("<h1>Color Names</h1>");
+for (var i = 0; i < colorNames.length; i++) {
+    document.write(colorNames[i] + "<br>");
+    console.log(colorNames[i]);}
