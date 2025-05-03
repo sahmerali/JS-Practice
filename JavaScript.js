@@ -1063,3 +1063,80 @@ for (let i = 0; i < fruits.length; i++) {
   console.log(`Element at index ${i} is ${fruits[i]}`);
 }
 
+// Q-06
+// a
+// let counting = [];
+// for(let i = 1; i <= 15; i++) {
+//     counting.push(i);
+// }
+// console.log("Counting:", counting.join(", "));
+
+// b
+// let reverseCounting = [];
+// for(let i = 10; i >= 1; i--) {
+//     reverseCounting.push(i);
+// }
+// console.log("Reverse counting:", reverseCounting.join(", "));
+
+// c
+// let even = [];
+// for(let i = 0; i <= 20; i += 2) {
+//     even.push(i);
+// }
+// console.log("Even:", even.join(", "));
+
+// d
+// let odd = [];
+// for(let i = 1; i < 20; i += 2) {
+//     odd.push(i);
+// }
+// console.log("Odd:", odd.join(", "));
+
+// e
+// let series = [];
+// for(let i = 2; i <= 20; i += 2) {
+//     series.push(i + "k");
+// }
+// console.log("Series:", series.join(", "));
+
+// Q-07
+
+// let A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let userOrder = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?").toLowerCase();
+// let index = A.indexOf(userOrder);
+
+// if (index !== -1) {
+//     alert(userOrder + " is available at index " + index + " in our bakery");
+// } else {
+//     alert("We are sorry. " + userOrder + " is not available in our bakery");
+// }
+
+// let A = [24, 53, 78, 91, 12];
+// let largest = A[0]; // Start with the first element
+// for (let i = 1; i < A.length; i++) {
+//     if (A[i] > largest) {
+//         largest = A[i];
+//     }
+// }
+
+// console.log("Array items: " + A.join(","));
+// console.log("The largest number is " + largest);
+
+// Q-09
+// let A = [24, 53, 78, 91, 12];
+// let smallest = A[0]; // Start with the first element
+// for (let i = 1; i < A.length; i++) {
+//     if (A[i] < smallest) {
+//         smallest = A[i];
+//     }
+// }
+
+// console.log("Array items: " + A.join(","));
+// console.log("The smallest number is " + smallest);
+
+// Q-10
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 5 === 0) {
+//       console.log(i);
+//   }
+// }
