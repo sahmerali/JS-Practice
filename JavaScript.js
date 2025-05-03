@@ -879,23 +879,23 @@
 
 //------------ Chapter 15 & 16
 
-// Q-01
-var studentsName = [];
+// // Q-01
+// var studentsName = [];
 
-// Q-02
-var studentsName = {};
+// // Q-02
+// var studentsName = {};
 
-// Q-03
-var studentsName = ["Syed", "Ahmer", "Ali"];
+// // Q-03
+// var studentsName = ["Syed", "Ahmer", "Ali"];
 
-// Q-04
-var studentsAge = [23, 24, 25];
+// // Q-04
+// var studentsAge = [23, 24, 25];
 
-// Q-05
-var booleanArray = [true, false, false, true];
+// // Q-05
+// var booleanArray = [true, false, false, true];
 
-// Q-06
-var mixedArray = ["Syed", 37, 82.5, true];
+// // Q-06
+// var mixedArray = ["Syed", 37, 82.5, true];
 
 // Q-07
 // var qualificationPak = ["SSC", "HCS", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD"];
@@ -923,8 +923,143 @@ var mixedArray = ["Syed", 37, 82.5, true];
 // }
 
 //Q-09
-var colorNames = ["Red", "Green", "Yellow"];
-document.write("<h1>Color Names</h1>");
-for (var i = 0; i < colorNames.length; i++) {
-    document.write(colorNames[i] + "<br>");
-    console.log(colorNames[i]);}
+// var colorNames = ["Red", "Green", "Yellow"];
+// document.write("<h1>Color Names</h1>");
+// for (var i = 0; i < colorNames.length; i++) {
+//     document.write(colorNames[i] + "<br>");
+//     console.log(colorNames[i]);
+// }
+
+//b
+// do {
+//     var newColor = prompt("Please insert the color").trim().toLocaleLowerCase();
+//     if (!(isNaN(newColor)) || !(/^[A-za-z\s]+$/.test(newColor)) || newColor === null || newColor === "") {
+//         alert("please insert the color");
+//     }
+// } while (!(isNaN(newColor)) || !(/^[A-Za-z\s]+$/.test(newColor)) || newColor === null || newColor === "");
+
+// colorNames.unshift (newColor);
+// document.write("<h1>Updated Color Names</h1>");
+
+// for (var i = 0; i < colorNames.length; i++) {
+//     document.write(colorNames[i] + "<br>");
+//     console.log(colorNames[i]);
+// }
+
+// do {
+//     var newColor = prompt("Please insert the color").trim().toLocaleLowerCase();
+//     if (!(isNaN(newColor)) || !(/^[A-Za-z\s]+$/).test(newColor) || newColor === null || newColor === "") {
+//         alert("please insert color only");
+//     }
+// } while (!(isNaN(newColor)) || !(/^[A-z/a-z\s]+$/).test(newColor) || newColor === null || newColor === "");
+
+// do {
+//     var newColor2 = prompt("Please insert the  Second color").trim().toLocaleLowerCase();
+//     if (!(isNaN(newColor2)) || !(/^[A-Za-z\s]+$/).test(newColor2) || newColor2 === null || newColor2 === "") {
+//         alert("please insert color only");
+//     }
+// } while (!(isNaN(newColor)) || !(/^[A-Z/a-z\s]+$/).test(newColor2) || newColor2 === null || newColor2 === "");
+
+
+// colorNames.unshift (newColor);
+// colorNames.unshift (newColor2);
+// document.write("<h1>Updated color names</h1>");
+
+// for (var i = 0; i < colorNames.length; i++) {
+//     document.write(colorNames[i] + "<br>");
+// }
+
+// var colorNames = ["Red", "Green", "Yellow"];
+// document.write("<h1>Color Names</h1>");
+
+// colorNames.pop ();
+
+// for (var i = 0; i < colorNames.length; i++) {
+//     document.write(colorNames[i] + "<br>");
+//     console.log(colorNames[i]);
+// }
+
+// e
+// do {
+//     var newColor = prompt("please insert the color").trim().toLocaleLowerCase();
+//     if ((isNaN(newColor)) || !/^[a-z/A-Z\s]+$/.test(newColor) || newColor === null || newColor.trim() === "") {
+//         alert("Pease insert the color only");
+//     }
+// } while (!(isNaN(newColor)) || !/^[a-z/A-Z\s]+$/.test(newColor) || newColor === null || newColor === "");
+
+// do {
+//     var index = prompt("please insert the index number").trim();
+//     if ((isNaN(index)) && index >= 0 && index < colorNames.length || index === null || index.trim() === "") {
+//         alert("Pease insert the number only");
+//     }
+// } while ((isNaN(index)) && index >= 0 && index < colorNames.length|| index === null || index === "");
+
+// colorNames.slice(index, 0, newColor.trim());
+// document.write("<h1>UPdated Colors</h1>");
+
+// for (var i = 0; i < colorNames.length; i++) {
+//     document.write(colorNames[i] + "</br>");
+// }
+
+// var colorNames = ["red", "green", "blue", "yellow"];
+
+// do {
+//     var newColor = prompt("please insert the color").trim().toLocaleLowerCase();
+//     if (!/^[a-z/A-Z\s]+$/.test(newColor) || newColor === null || newColor.trim() === "") {
+//         alert("Pease insert the color only");
+//     }
+// } while (!/^[a-z/A-Z\s]+$/.test(newColor) || newColor === null || newColor === "");
+
+// do {
+//     var index = prompt("please insert the index number").trim();
+//     if ((isNaN(index)) || index < 0 || index > colorNames.length || index === null || index.trim() === "") {
+//         alert("Pease insert the number only");
+//     }
+// } while ((isNaN(index)) || index < 0 || index > colorNames.length|| index === null || index === "");
+
+// index = parseInt(index);
+
+// colorNames.splice(index, 0, newColor);
+// document.write("<h1>Updated Colors</h1>");
+
+// for (var i = 0; i < colorNames.length; i++) {
+//     document.write(colorNames[i] + "</br>");
+// }
+
+//------------ Chapter 17 - 20
+//Q-01
+
+let multiArray = [];
+
+//Q-02
+// let matrix = [
+//     [0, 1, 2, 3],
+//     [1, 0, 1, 2],
+//     [2, 1, 0, 1]
+//   ]
+// console.log(matrix);
+
+// //Q-03
+// for (let i = 1; i <= 10; i++) {
+//     console.log(i);
+//   }
+
+// Q-04
+// let number = parseInt(prompt("Enter the number for multiplication table:"));
+// let length = parseInt(prompt("Enter the length of the table:"));
+
+// for (let i = 1; i <= length; i++) {
+//   console.log(`${number} x ${i} = ${number * i}`);
+// }
+
+// Q-05
+let fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(`Element at index ${i} is ${fruits[i]}`);
+}
+
